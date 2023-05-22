@@ -6,13 +6,17 @@
 
 ### 功能
 ✅ ScriptInfo、Styles、Events解析
+
 ✅ 大部分的覆写控制代码支持
+
 ✅ 字段类型，合法性检查
+
 ⬜ 绘图指令、方便的绘图支持（开发中）
+
 ~~⬜ C++内核实现 （计划）~~
 
 ### 安装
-从 pip 之间获取
+从 pip 中获取
 
 ``` shell
 pip install easyass

@@ -1,6 +1,6 @@
-from easy_ass.errors import Errors
-from easy_ass.base import AssAttr
-from easy_ass.ass_types import AssColor
+from easyass.errors import Errors
+from easyass.base import AssAttr
+from easyass.ass_types import AssColor
 
 
 class Styles(list):

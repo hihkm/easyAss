@@ -1,21 +1,21 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-with open('README.md', 'r', encoding='utf-8') as fp:
+with open(r'README.md', 'r', encoding='utf-8') as fp:
     long_description = fp.read()
 
 setup(
-    name='easy_ass',
-    version='1.0.0beta.1',
+    name='easyass',
+    version='1.0.0b2',
     keywords=['ass', 'subtitle'],
-    description='An ass subtitle parsing library. ',
+    description='An ass subtitle parsing library',
     license='MIT Licence',
     long_description=long_description,
+    long_description_content_type="text/markdown",
 
     url='https://github.com/hihkm/easyAss',
     author='tikm',
     author_email='hkm@tikm.org',
 
-    packages=find_packages(where='easy_ass'),
     include_package_data=True,
     platforms='all',
     install_requires=[],
@@ -24,6 +24,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    package_dir={'': 'easy_ass'},
+    package_dir={'': 'easyass'},
     python_requires='>=3.7',
 )

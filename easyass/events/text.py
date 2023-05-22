@@ -2,7 +2,7 @@ import sys
 import inspect
 import re
 
-from easy_ass.ass_types import AssColor
+from easyass.ass_types import AssColor
 
 
 class TextBase:
