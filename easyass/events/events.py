@@ -1,8 +1,8 @@
 from enum import Enum
 from .text import Text
 
-from easyass.ass_types import AssTime
-from easyass.errors import Errors
+from ass_types import AssTime
+from errors import Errors
 
 
 class Events(list):

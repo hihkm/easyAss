@@ -1,5 +1,5 @@
-from easyass.errors import Errors
-from easyass.base import AssAttr
+from errors import Errors
+from base import AssAttr
 
 
 class ScriptInfo:

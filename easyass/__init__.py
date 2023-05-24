@@ -1,6 +1,4 @@
-from .scriptinfo import *
-from .styles import *
-from .events import *
+from . import scriptinfo, styles, events
 from .errors import Errors
 from .ass_types import AssColor, AssTime
-from .easy_ass import Ass
+from .easyass import Ass

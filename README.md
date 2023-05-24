@@ -54,6 +54,6 @@ print(ass_obj.events[0].dump())  # 获取第一条事件的 ass 代码
 
 lines, errs = ass_obj.dump()
 with open(r'op.ass', 'w', encoding='utf8') as fp:  # 修改后的ass写到文件
-    ass_str = fp.write('\n'.join(lines))  # lines是一个字符串数组，包含每一行的内容
+    fp.write('\n'.join(lines))  # lines是一个字符串数组，包含每一行的内容
 ```
 

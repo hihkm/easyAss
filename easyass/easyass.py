@@ -1,7 +1,7 @@
-from .scriptinfo import *
-from .events import *
-from .styles import *
-from .errors import Errors
+from scriptinfo import *
+from events import *
+from styles import *
+from errors import Errors
 
 
 class Ass:

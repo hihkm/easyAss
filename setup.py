@@ -5,7 +5,7 @@ with open(r'README.md', 'r', encoding='utf-8') as fp:
 
 setup(
     name='easyass',
-    version='1.0.0b2',
+    version='1.0.0b7',
     keywords=['ass', 'subtitle'],
     description='An ass subtitle parsing library',
     license='MIT Licence',
